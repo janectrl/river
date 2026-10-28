@@ -1,9 +1,4 @@
-<div align="center">
-<p align="center">
-  <img src="icon/river.png" alt="river app icon" width="128">
-</p>
-
-# river
+<h1 align="center"><img src="icon/river.png" alt="" width="32" height="32" />&nbsp;river</h1>
 **A music player for your local library.**
 
 Created by **jane(not remover)**
