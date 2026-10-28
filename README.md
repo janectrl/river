@@ -1,4 +1,4 @@
-<h1 align="center"><img src="icon/river.png" alt="" width="32" height="32" />&nbsp;river</h1>
+<h1 align="center"><img src="icon/river.png" alt="" width="32" height="32" />&nbsp;<b>river</b></h1>
 **A music player for your local library.**
 
 Created by **jane(not remover)**
