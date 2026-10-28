@@ -1,33 +1,33 @@
-<h1 align="center"><img src="icon/river.png" alt="" width="32" height="32" />&nbsp;<b>river</b></h1>
-**A music player for your local library.**
+<h1 align="center"><img src="icon/river.png" alt="" width="30" height="30">&nbsp;river</h1>
 
-Created by **jane(not remover)**
-
-</div>
+<p align="center">
+  <strong>A music player for your local library.</strong><br>
+  Created by <strong>jane(not remover)</strong>
+</p>
 
 ---
 
-river is a desktop music player built with Flutter. It brings your local music library, playlists, lyrics, listening statistics, and player appearance together in one place.
+river is a desktop music player for your local music library, with playlists, lyrics, listening statistics, and a customizable player.
 
-> **Platform:** river is currently developed for Windows. Other desktop platforms are not yet promised or tested.
+> **Platform:** river is currently developed for Windows.
 
 ## Features
 
-### your music, your way
+### Music library
 
-- Scan music folders and build a searchable local library.
-- Add tracks to the queue and create playlists.
+- Scan folders on your computer and browse your music library.
+- Search for tracks, add them to the queue, and create playlists.
 - Drag and drop supported audio files into the app.
 - Edit track information and choose or create album artwork.
-- Browse recently played tracks and view listening statistics, including play counts and time listened.
+- Browse recently played tracks and view listening statistics.
 
-### A player you can make your own
+### Player and appearance
 
 - Play, pause, skip, seek, adjust volume, and repeat tracks.
 - Customize the player layout, keyboard shortcuts, and text size.
 - Choose a background style: blurred artwork, artwork colors, or a solid color.
-- Adjust the Windows font used by the app.
-- Use the visualizer, or enable Economy mode to reduce visual effects.
+- Choose the Windows font used by the app.
+- Use the audio visualizer or enable Economy mode to reduce visual effects.
 
 ### Lyrics and integrations
 
@@ -35,58 +35,56 @@ river is a desktop music player built with Flutter. It brings your local music l
 - Look up lyrics through LRCLIB when available.
 - Connect Last.fm for now-playing updates and scrobbling.
 - Optionally share the currently playing track through Discord Rich Presence.
-- Choose the interface language: English, Spanish, Russian, Ukrainian, or Chinese.
+- Use the interface in English, Spanish, Russian, Ukrainian, or Chinese.
 
 ### Supported audio formats
 
-MP3, FLAC, WAV, M4A, and OGG are supported. Playback availability can also depend on the file and Windows media decoding support.
+MP3, FLAC, WAV, M4A, and OGG. Playback can also depend on the file and Windows media decoding support.
 
-## Getting started
+## Download and install
 
-### Install on Windows
-
-Download the latest `river` installer from the repository's **Releases** page, run it, and follow the installation instructions. Releases are the recommended way to install river; you do not need Flutter or development tools.
+Download the latest `river` installer from the repository's **Releases** page. Run the installer and follow its instructions. You do not need Flutter or development tools to install river.
 
 ## Privacy
 
-Your audio files are read from your computer; river does not upload the audio itself. Some optional features send information to external services:
+Your audio files are read from your computer; river does not upload the audio itself. Optional online features send track information to their services:
 
-- **Lyrics:** a lyrics lookup can send track information, such as title and artist, to LRCLIB.
-- **Last.fm:** when connected, track information is sent to Last.fm for now-playing updates and scrobbles. Tracks of 30 seconds or less are not scrobbled; longer tracks are scrobbled after half their duration or four minutes, whichever comes first.
-- **Discord:** when enabled and playing, the track title and artist are shared with Discord Rich Presence.
+- **Lyrics:** a lookup can send the track title and artist to LRCLIB.
+- **Last.fm:** when connected, track information is sent to Last.fm for now-playing updates and scrobbles.
+- **Discord:** when enabled and music is playing, the track title and artist are shared through Discord Rich Presence.
 
-You can leave these integrations disconnected or disabled. Internet access is not needed to play music stored on your computer.
+These integrations are optional. Local playback does not need an internet connection.
 
 ## FAQ
 
 ### Does river include music?
 
-No. Add folders containing music you have access to. The project does not provide or distribute audio tracks.
+No. Add folders containing music you have access to. river does not provide or distribute music.
 
-### Do I need an account to use the player?
+### Do I need an account?
 
-No account is needed for local playback, playlists, or the core player. Last.fm and Discord are optional integrations that use their respective services.
+No account is needed for local playback and the core player. Last.fm and Discord are optional integrations that use their own services.
 
 ### Why aren't lyrics showing?
 
-river checks available track lyrics and local `.lrc` files, then can look them up through LRCLIB. If LRCLIB shows an error or the lyrics do not load, click **Try again** in the lyrics panel and retry a few times; the service may fail temporarily. If the lyrics still do not appear, they may not be available from LRCLIB for that track.
+river checks available track lyrics and local `.lrc` files, then can look them up through LRCLIB. If LRCLIB shows an error or the lyrics do not load, click **Try again** in the lyrics panel and retry a few times; the service may be temporarily unavailable. If they still do not appear, LRCLIB may not have lyrics for that track.
 
 ### How do I enable Last.fm or Discord?
 
-Open the relevant integration in river's settings and follow its in-app steps. Last.fm scrobbling requires connecting a Last.fm account. Discord Rich Presence requires the Discord desktop app to be available.
+Open the relevant integration in river's settings and follow the steps there. Last.fm scrobbling requires connecting a Last.fm account. Discord Rich Presence requires the Discord desktop app to be available.
 
-### Can I change or redistribute river?
+### Can I modify and share river?
 
-Yes. river is released under the GNU General Public License v3.0. You may modify and redistribute it under that license's terms; keep the applicable copyright and license notices and provide the corresponding source as required by the GPL.
+Yes. river is licensed under the GNU General Public License v3.0. You may modify and redistribute it under the terms of that license. Keep the applicable copyright and license notices and follow the GPL requirements when sharing a modified version.
 
-The GPL does not guarantee that a modified version will keep river's Credits screen or identify its original author in the app UI. Please also respect the separate licenses and notices for bundled fonts and third-party dependencies.
+A modified version may change or remove river's Credits screen. Please also respect the separate licenses and notices for bundled fonts and third-party packages.
 
 ### Where can I report a bug or suggest an idea?
 
-Open an issue in the repository and include the river version, your Windows version, what happened, and what you expected to happen. Do not include private music files or account credentials.
+Open an issue in this repository. Include the river version, your Windows version, what happened, and what you expected to happen. Do not include private music files or account credentials.
 
 ## Credits and licenses
 
 Created by **jane(not remover)**.
 
-river's source code is licensed under **GNU GPL v3.0**; see [`LICENSE`](LICENSE). Bundled Inter fonts are provided under the **SIL Open Font License 1.1**. Third-party packages and assets may have their own licenses and notices.
+river's source code is licensed under **GNU GPL v3.0**; see [`LICENSE`](LICENSE). The bundled Inter fonts are provided under the **SIL Open Font License 1.1**. Third-party packages and assets may have their own licenses and notices.
