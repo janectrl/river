@@ -2,7 +2,7 @@
 
 # river
 
-**A personal music player for your local library.**
+**A music player for your local library.**
 
 Created by **jane(not remover)**
 
