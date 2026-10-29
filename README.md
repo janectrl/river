@@ -75,8 +75,8 @@ Open the relevant integration in river's settings and follow the steps there. La
 
 ### Showcase
 <p align="center">
-  <img src="showcase-photos/photo1.jpg" alt="river interface" width="48%">
-  <img src="showcase-photos/photo2.jpg" alt="river visualizer" width="48%">
+  <img src="showcase photos/photo1.jpg" alt="river interface" width="48%">
+  <img src="showcase photos/photo2.jpg" alt="river visualizer" width="48%">
 </p>
 ### Can I modify and share river?
 
