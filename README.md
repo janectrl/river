@@ -73,6 +73,12 @@ river checks available track lyrics and local `.lrc` files, then can look them u
 
 Open the relevant integration in river's settings and follow the steps there. Last.fm scrobbling requires connecting a Last.fm account. Discord Rich Presence requires the Discord desktop app to be available.
 
+### Showcase
+
+<img src=showcase photos/photo1.jpeg alt=interface photo>
+
+<img src=showcase photos/photo2.jpeg alt=vizualizer photo>
+
 ### Can I modify and share river?
 
 Yes. river is licensed under the GNU General Public License v3.0. You may modify and redistribute it under the terms of that license. Keep the applicable copyright and license notices and follow the GPL requirements when sharing a modified version.
